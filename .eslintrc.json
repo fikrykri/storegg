@@ -20,5 +20,23 @@
         "@typescript-eslint"
     ],
     "rules": {
-    }
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".ts",
+                    ".tsx"
+                ]
+            }
+        ]
+    },
+//     "arrow-body-style": [
+//         "error",
+//         "as-needed",
+//         {
+//             "requireReturnForObjectLiteral": true
+//         }
+//     ]
 }
